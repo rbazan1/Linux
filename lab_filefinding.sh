@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Gannon University Unix Lab 6 - Find command
+# Gannon University Unix Lab 5 - Find command
 
 # This file is a shell script. It's essentially a program comprised
 # of Linux commands as functions. You can run shell scripts as an executable:
-# ./lab6.sh
+# ./lab_filefinding.sh
 # Be sure to enable execute permissions for this file in order to execute it:
 # chmod a+x lab5.sh
 
@@ -20,9 +20,9 @@
 
 # You can analyze this script to figure out what the outputs of your
 # find commands should be. Use this information to check your answers.
-cd
-mkdir -p allmonths/FirstSemester ; mkdir allmonths/SecondSemester
-cd ~\allmonths
+mkdir -p ~/allmonths/FirstSemester
+mkdir -p ~/allmonths/SecondSemester
+cd ~/allmonths
 
 # fallocate - works the same as touch, but can be used to create artifically large files.
 # It fills the file with the specified number of bytes set to all zeros. (null terminators in ASCII)
@@ -64,4 +64,4 @@ chmod 0755 SecondSemester
 chmod 0664 *.* FirstSemester/*.* SecondSemester/*.*
 chmod 0644 SEPTEMBER.TXT DECEMBER.TXT OCTOBER.TXT SecondSemester/SEPTEMBER.TXT
 
-echo "Laboratory 6 initialization complete!"
+echo "Laboratory initialization complete!"

@@ -10,7 +10,7 @@ for i in {1..5}; do echo "Try another path!" > challenge/bravo/b1/trick$i.txt; d
 
 echo "This might be helpful... or not?" > challenge/charlie/c1/clue1.txt
 echo "Look deeper into the delta." > challenge/charlie/c1/clue2.txt
-echo -e "garbage1\nrandomtext\nmorejunk\n>>> linux <<<\ntrash\nnoise" > challenge/charlie/c1/delta/data.txt
+echo -e "garbage1\nrandomtext\nmorejunk\n>>> linux <<<\ntrash\nnoise" > challenge/charlie/c1/delta/.data.txt
 echo -e ">>> ostrich <<<\n>>> emu <<<" > challenge/echo/foxtrot/fake_words.txt
 
 echo "Setup complete!"
